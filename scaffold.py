@@ -1,3 +1,4 @@
+import keyboard
 from mcpi.minecraft import Minecraft
 from mcpi import block
 
