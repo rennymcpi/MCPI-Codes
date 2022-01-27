@@ -3,6 +3,6 @@ from mcpi import block
 
 mc = Minecraft.create()
 
-while True:
+while not keyboard.is_pressed('esc'):
     x, y, z = mc.player.getPos()
     mc.setBlock(x, y-1, z, block.COBBLESTONE)
